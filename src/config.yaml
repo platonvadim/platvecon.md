@@ -11,14 +11,14 @@ metadata:
   title:
     default: PlatVecon
     template: '%s — PlatVecon'
-  description: "\U0001F680 Фабрика окон и дверей в Оргееве. SRL PlatVecon."
+  description: "\U0001FA9F Фабрика окон и дверей в Оргееве. SRL PlatVecon."
   robots:
     index: true
     follow: true
   openGraph:
     site_name: PlatVecon
     images:
-      - url: '~/assets/images/default.png'
+        -url: '~/assets/images/default.png'
         width: 1200
         height: 628
     type: website
