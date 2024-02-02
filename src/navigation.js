@@ -3,7 +3,7 @@ import { getPermalink, getBlogPermalink, getAsset } from './utils/permalinks';
 export const headerData = {
   links: [
     {
-      text: 'Homes',
+      text: 'Главная',
       links: [
         {
           text: 'SaaS',
@@ -24,7 +24,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Pages',
+      text: 'Услуги',
       links: [
         {
           text: 'Features (Anchor Link)',
@@ -43,10 +43,6 @@ export const headerData = {
           href: getPermalink('/about'),
         },
         {
-          text: 'Contact',
-          href: getPermalink('/contact'),
-        },
-        {
           text: 'Terms',
           href: getPermalink('/terms'),
         },
@@ -57,7 +53,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Landing',
+      text: 'Предложения',
       links: [
         {
           text: 'Lead Generation',
@@ -86,7 +82,7 @@ export const headerData = {
       ],
     },
     {
-      text: 'Blog',
+      text: 'Блог',
       links: [
         {
           text: 'Blog List',
@@ -111,11 +107,11 @@ export const headerData = {
       ],
     },
     {
-      text: 'Widgets',
-      href: '#',
+      text: 'Контакты',
+      href: getPermalink('/contact'),
     },
   ],
-  actions: [{ text: 'Download', href: 'https://github.com/onwidget/astrowind', target: '_blank' }],
+  actions: [{ text: 'RO', href: 'https://ro.platvecon.md', target: '_blank' }],
 };
 
 export const footerData = {
@@ -174,10 +170,10 @@ export const footerData = {
     { ariaLabel: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
     { ariaLabel: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
     { ariaLabel: 'RSS', icon: 'tabler:rss', href: getAsset('/rss.xml') },
-    { ariaLabel: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+    { ariaLabel: 'Github', icon: 'tabler:brand-tiktok', href: 'https://github.com/onwidget/astrowind' },
   ],
   footNote: `
     <span class="w-5 h-5 md:w-6 md:h-6 md:-mt-0.5 bg-cover mr-1.5 rtl:mr-0 rtl:ml-1.5 float-left rtl:float-right rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)]"></span>
-    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/"> onWidget</a> · All rights reserved.
+    Made by <a class="text-blue-600 hover:underline dark:text-gray-200" href="https://platon.md/"> platon.md</a> Template: <a href="https://onwidget.com/"> onWidget</a> · All rights reserved.
   `,
 };
